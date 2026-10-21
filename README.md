@@ -1,4 +1,4 @@
-# Shoaib Training Academy — Assignment 2
+# Hussnain Training Academy — Assignment 2
 
 **Course:** Web Technologies, BSCS Semester 5  
 **Student:** Muhammad Shoaib  
