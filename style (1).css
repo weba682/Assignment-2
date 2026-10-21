@@ -1,0 +1,41 @@
+/* Element selectors: visible typography and page backgrounds. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.65; color: #233448; background: #f3f7fa; }
+header, footer { background: #102c43; color: white; padding: 28px max(6%, calc((100% - 1080px)/2)); }
+h1 { margin: 6px 0 18px; font-size: clamp(26px, 4vw, 40px); line-height: 1.2; }
+h2, h3 { color: #102c43; }
+nav { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+nav a { color: white; text-decoration: none; border-bottom: 2px solid #38c6b0; padding: 4px 0; }
+main { max-width: 1080px; margin: 32px auto; padding: 0 22px; }
+article, aside, section, form { background: white; border: 1px solid #d6e2e9; border-radius: 12px; padding: 24px; margin-bottom: 24px; }
+/* Class selector: teal announcement panel. */
+.notice { background: #e0f6f0; border-left: 5px solid #087e70; }
+.eyebrow { color: #6ce0cc; font-weight: bold; letter-spacing: 2px; font-size: 12px; }
+/* ID selector: prominent course table. */
+#course-table { width: 100%; border-collapse: collapse; background: white; }
+caption { text-align: left; font-weight: bold; padding: 12px 0; }
+th, td { border: 1px solid #a5b9c6; padding: 13px; text-align: left; }
+th { background: #102c43; color: white; }
+tbody tr:nth-child(even) { background: #eef7f7; }
+.table-wrap { overflow-x: auto; }
+audio, video { display: block; width: 100%; margin: 12px 0; }
+video { max-width: 760px; border-radius: 10px; }
+/* Attribute selector: visible media border. */
+video[controls] { border: 3px solid #087e70; }
+/* ID selector: accent border around registration form. */
+#registration-form { border-top: 6px solid #087e70; }
+fieldset { border: 1px solid #b5cbd5; border-radius: 8px; margin: 0 0 24px; padding: 20px; }
+legend { font-weight: bold; color: #087e70; padding: 0 8px; }
+label { display: block; font-weight: bold; margin: 12px 0 6px; }
+input, select, textarea { width: 100%; padding: 12px; border: 1px solid #9eafbd; border-radius: 6px; font: inherit; background: white; }
+/* Attribute selectors: visible email background and compact choice controls. */
+input[type="email"] { background: #eefaf7; border-color: #087e70; }
+input[type="radio"], input[type="checkbox"] { width: auto; margin-right: 8px; accent-color: #087e70; }
+.choice { font-weight: normal; }
+input:focus, select:focus, textarea:focus { outline: 3px solid #39bdaa; outline-offset: 2px; }
+button { border: 2px solid #087e70; background: #087e70; color: white; padding: 12px 24px; border-radius: 6px; cursor: pointer; font: inherit; margin: 6px 10px 0 0; }
+button[type="reset"] { background: white; color: #087e70; }
+button:hover { background: #102c43; color: white; border-color: #102c43; }
+a:hover { color: #6ce0cc; }
+.help { font-size: 14px; color: #516575; }
+footer p { margin: 5px 0; font-size: 14px; }
